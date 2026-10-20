@@ -27,6 +27,16 @@ print(pd.options.display.max_rows)
 In my system the number is 60, which means that if the DataFrame contains more than 60 rows, the print(df) statement will return only the headers and the first and last 5 rows.
 You can change the maximum rows number with the same statement.
 '''
-pd.options.display.max_rows = 9999
-df = pd.read_csv('data.csv')
-print(df) 
+# pd.options.display.max_rows = 9999
+# df = pd.read_csv('data.csv')
+# print(df) 
+
+
+# Read JSON
+'''
+Big data sets are often stored, or extracted as JSON.
+JSON is plain text, but has the format of an object, and is well known in the world of programming, including Pandas.
+'''
+
+df = pd.read_json('data.json')
+print(df.to_string()) 
