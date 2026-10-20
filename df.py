@@ -37,6 +37,6 @@ If your data sets are stored in a file, Pandas can load them into a DataFrame.
 Example
 Load a comma separated file (CSV file) into a DataFrame:
 '''
-df = pd.read_csv('data.csv')
+df = pd.read_csv('pandas_practice_employees.csv')
 
 print(df) 
