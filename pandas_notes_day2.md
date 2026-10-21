@@ -308,4 +308,5 @@ print(df.to_string())
   `df.duplicated()`                              Identify duplicate rows
 
   `df.drop_duplicates(inplace=True)`             Remove duplicate rows in place
+  
   ----------------------------------------------------------------------------------
